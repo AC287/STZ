@@ -35,7 +35,7 @@ include 'phpsnippet/serverlocation.php';
   <div class="carousel-inner" role="listbox">
 
     <div class="item active">
-      <img src="<?php bloginfo('template_directory')?>/images/banners/ldr_rough.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_rough.jpg">
       <div class="index-banner-textbox ibt-rough">
         <div class="ibt-text">
           <span>NOT ROUGH AROUND THE EDGES</span>
@@ -46,7 +46,7 @@ include 'phpsnippet/serverlocation.php';
     </div>
 
     <div class="item">
-      <img src="<?php bloginfo('template_directory')?>/images/banners/ldr_merch.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_merch.jpg">
       <div class="index-banner-textbox ibt-merch">
         <div class="ibt-text">
           <span>BEST IN CLASS MERCHANDISING</span>
@@ -79,7 +79,7 @@ include 'phpsnippet/serverlocation.php';
     </div> -->
 
     <div class="item">
-      <img src="<?php bloginfo('template_directory')?>/images/banners/ldr_pipedecor.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_pipedecor.jpg">
       <div class="index-banner-textbox ibt-pipedecor">
         <div class="ibt-text">
           <span>TRADITIONAL COMPANY WITH UNTRADITIONAL IDEAS</span>
@@ -128,36 +128,6 @@ include 'phpsnippet/serverlocation.php';
         </div>
       </div>
 
-      <div class="gc-indexcontainer">
-        <div class="gc-indeximages">
-          <img src="<?php bloginfo('template_directory')?>/images/icons/home-faucet.svg">
-        </div>
-        <div class="gc-txtbox">
-          <div class="gc-indextitle">
-            <p>Fashion</p>
-          </div>
-          <div class="gc-indextxt">
-            <p>LDR carries a complete line of high quality fashion plumbing kitchen, bath and laundry products. The product offering covers accessories, organization, and safety.</p>
-            <p>LDR offers both old school nostalgic  items useful when replacing old parts, and cutting edge modern products ready to make any space shine.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="gc-indexcontainer">
-        <div class="gc-indeximages">
-          <img src="<?php bloginfo('template_directory')?>/images/icons/home-repair.svg">
-        </div>
-        <div class="gc-txtbox">
-          <div class="gc-indextitle">
-            <p>Repair</p>
-          </div>
-          <div class="gc-indextxt">
-            <p>LDR offers an extensive line of carded plumbing repair products, specializing in pipe repair, water supply, and sink and faucet repair.</p>
-            <p>The packaging clearly defines which category the item belongs to and is color coded to size making it very easy for consumers to shop.</p>
-          </div>
-        </div>
-      </div>
-
     </div>  <!--  end gc-overallinnercontainer -->
 
 
@@ -180,43 +150,43 @@ include 'phpsnippet/serverlocation.php';
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <div class="index-midcategory" data-toggle="collapse" data-target="#imc-indexretail">
+        <div class="index-midcategory" >
           <!-- <img src="<?php //bloginfo('template_directory')?>/images/distribution01.png"></img> -->
           <div class="index-midcategory-imgholder index-indexretail"></div>
           <div class="mc-header" >RETAIL</div>
         </div>
-        <div class="collapse index-midcategory-contents" id="imc-indexretail">
+        <div class="index-midcategory-contents" id="imc-indexretail">
           <!-- <div class="mc-border">INDUSTRY DISTRIBUTORS <br/>CARRY CAMBRIDGE</div> -->
           <div class="mc-txt">
-            <p>LDR has a firm understanding of the retail marketplace giving your retail space a great edge.</p>
-            <p>LDR's label and UPC color coding system allows easy shopping for the customer and quick restocking by store personnel. The small pack quantities allow for quick turn around.</p>
-            <p>LDR's ability to customize product assortments, program updates, and  competitive pricing makes us the retailers #1 choice.</p>
+            <p>STZ has a firm understanding of the retail marketplace giving your retail space a great edge.</p>
+            <p>STZ's label and UPC color coding system allows easy shopping for the customer and quick restocking by store personnel. The small pack quantities allow for quick turn around.</p>
+            <p>STZ's ability to customize product assortments, program updates, and  competitive pricing makes us the retailers #1 choice.</p>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="index-midcategory" data-toggle="collapse" data-target="#imc-index2step">
+        <div class="index-midcategory" >
           <!-- <img src="<?php bloginfo('template_directory')?>/images/retail01.png"></img> -->
           <div class="index-midcategory-imgholder index-index2step"></div>
           <div class="mc-header" >2 STEP DISTRIBUTION</div>
         </div>
-        <div class="collapse index-midcategory-contents" id="imc-index2step">
+        <div class="index-midcategory-contents" id="imc-index2step">
           <!-- <div class="mc-border">INTERNATIONAL RETAILERS <br/>SELL CAMBRIDGE</div> -->
           <div class="mc-txt">
-            <p>LDR's two-step distribution process keeps the product easily accessible to the distributor. Global access points, and local headquartered support allow for quick turn around and instant service.</p>
+            <p>STZ's two-step distribution process keeps the product easily accessible to the distributor. Global access points, and local headquartered support allow for quick turn around and instant service.</p>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="index-midcategory" data-toggle="collapse" data-target="#imc-indexwholesale">
+        <div class="index-midcategory" >
           <!-- <img src="<?php bloginfo('template_directory')?>/images/oem01.png"></img> -->
           <div class="index-midcategory-imgholder index-indexwholesale"></div>
           <div class="mc-header" >WHOLESALE</div>
         </div>
-        <div class="collapse index-midcategory-contents" id="imc-indexwholesale">
+        <div class="index-midcategory-contents" id="imc-indexwholesale">
           <!-- <div class="mc-border">ORIGINAL EQUIPMENT <br/>MANUFACTURER</div> -->
           <div class="mc-txt">
-            <p>LDR's sister company Cambridge caters to the wholesale market by offering bulk options on many of the Rough Plumbing sku's. <a href="<?php echo $cambridgeSite; ?>">Click here</a> to check out their website.</p>
+            <p>STZ's sister company Cambridge caters to the wholesale market by offering bulk options on many of the Rough Plumbing sku's. <a href="<?php echo $cambridgeSite; ?>">Click here</a> to check out their website.</p>
           </div>
         </div>
       </div>
