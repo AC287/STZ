@@ -30,13 +30,13 @@
 	</div>	<!--	end aboutus-inthebeginning  -->
 </div>	<!--  end container  -->
 
-<div class="about-midsectioncallout">
+<!-- <div class="about-midsectioncallout">
 	<div class="container">
 		<div class="about-midsectioncallout-innerpadding">
 			<p>LDR Global Industries prides itself on their expert knowledge of kitchen, bath and plumbing categories. By eating, breathing and dreaming plumbing, LDR is able to manufacture thousands of sku's, offer competitive pricing, customized product assortments, and various plumbing programs.</p>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <div class="about-whyus">
 	<div class="container">

@@ -27,16 +27,16 @@
         Rough Plumbing
       </div>
       <div class="ind-cat-txt">
-        <p>LDR manufactures a comprehensive line of fittings, nipples and pipe that are UL and FM certified. Black, galvanized, copper, brass, and plastic; when needing parts for any repairs or new projects, LDR has you covered!</p>
+        <p>STZ manufactures a comprehensive line of black & galvanized fittings, nipples and pipe that are UL and FM certified. When needing parts for any repairs or new projects, STZ has you covered!</p>
       </div>
     </div>
   </div>  <!--  end container  -->
 </div>
 
-<div class="ind-cat ind-showerbath">
+<!-- <div class="ind-cat ind-showerbath">
   <div class="container">
     <div class="ind-cat-img">
-      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/industries-showerbath.jpg">
+      <img src="<?php //bloginfo('template_directory')?>/images/web_thumb_img/industries-showerbath.jpg">
     </div>
     <div class="ind-cat-desc">
       <div class="ind-cat-title">
@@ -46,8 +46,8 @@
         <p>LDR carries a complete line of bath and shower products, including showerheads, caddies, faucets, toilet seats, shelving, storage and safety. Always keeping up with the latest trends but also offering older models for those who need a quick replacement, we make it a room you never want to leave!</p>
       </div>
     </div>
-  </div>  <!--  end container  -->
-</div>
+  </div>
+</div> -->
 
 <div class="ind-cat ind-kitchenlaundry">
   <div class="container">
@@ -59,16 +59,16 @@
         Kitchen &amp; Laundry
       </div>
       <div class="ind-cat-txt">
-        <p>LDR understands the importance of your kitchen and laundry room, and wants you to enjoy them in style. We introduce new designs regularly, so make sure to keep coming back to check out our collection!</p>
+        <p>STZ understands the importance of your kitchen and laundry room, and wants you to enjoy them in style. We introduce new designs regularly, so make sure to keep coming back to check out our collection!</p>
       </div>
     </div>
   </div>  <!--  end container  -->
 </div>
 
-<div class="ind-cat ind-plumbingrepair">
+<!-- <div class="ind-cat ind-plumbingrepair">
   <div class="container">
     <div class="ind-cat-img">
-      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/industries-plumbingrepair.jpg">
+      <img src="<?php //bloginfo('template_directory')?>/images/web_thumb_img/industries-plumbingrepair.jpg">
     </div>
     <div class="ind-cat-desc">
       <div class="ind-cat-title">
@@ -78,8 +78,8 @@
         <p>LDR makes repair look easy. We offer retail ready color coded carded packaging spanning toilet, water supply, bath, sink, faucet, pipe repair,  tools, and more. LDR has it all! </p>
       </div>
     </div>
-  </div>  <!--  end container  -->
-</div>
+  </div>
+</div> -->
 
 
 
@@ -93,7 +93,7 @@
         Pipe D&eacute;cor
       </div>
       <div class="ind-cat-txt">
-        <p>Pipe D&eacute;cor was founded by LDR as an idea to help hobbyists find the products they need for their do-it-yourself, Pinterest inspired projects. It is a way to showcase your creativity all while creating functional and visually aesthetic pieces that last.</p>
+        <p>Pipe D&eacute;cor was founded by STZ as an idea to help hobbyists find the products they need for their do-it-yourself, Pinterest inspired projects. It is a way to showcase your creativity all while creating functional and visually aesthetic pieces that last.</p>
       </div>
     </div>
   </div>  <!--  end container  -->

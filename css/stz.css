@@ -458,7 +458,7 @@ a.s-icon {
   color: #000;
   padding-bottom: 50px;
 }
-.gc-overallinnercontainer {
+/* .gc-overallinnercontainer {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -466,22 +466,33 @@ a.s-icon {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* align-content: space-between; */
-}
+} */
 .gc-indexcontainer {
-  width: 300px;
+  /* align-items: center; */
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  /* width: 300px; */
   padding-top: 50px;
 }
 .gc-indeximages {
   padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 .gc-indeximages img {
-  height: 75px;
+  height: 150px;
 }
 .gc-txtbox {
   background-color: #F1F2F2;
   min-height: 275px;
+  max-width: 350px;
   padding: 10px 25px 25px 25px;
 }
 .gc-indextitle {
@@ -553,7 +564,7 @@ a.s-icon {
   height: 100px;
   width: 100px;
   display: block;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .index-midcategory-imgholder.index-indexretail {
   background-image: url('../images/icons/home-retail.svg');
@@ -570,6 +581,7 @@ a.s-icon {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /*.index-midcategory img {
   -webkit-filter: opacity(.25) drop-shadow(0 0 0 #DA291C);
           filter: opacity(.25) drop-shadow(0 0 0 #DA291C);
@@ -578,11 +590,11 @@ a.s-icon {
 .index-midcategory[aria-expanded="true"] .mc-header {
   color: #fff;
 }*/
-.index-midcategory-imgholder:hover ~ .mc-header,
+/* .index-midcategory-imgholder:hover ~ .mc-header,
 .index-midcategory[aria-expanded="true"] .mc-header {
   color: #A3333B;
-}
-.index-midcategory-imgholder.index-indexretail:hover,
+} */
+/* .index-midcategory-imgholder.index-indexretail:hover,
 .index-midcategory[aria-expanded="true"] .index-indexretail {
   background-image: url('../images/icons/home-retail-h.svg');
   background-repeat: no-repeat;
@@ -599,7 +611,8 @@ a.s-icon {
   background-image: url('../images/icons/home-wholesale-h.svg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
+
 .index-midcategory-contents {
   padding-bottom: 20px;
 }

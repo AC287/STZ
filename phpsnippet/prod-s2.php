@@ -34,7 +34,7 @@
       $s4_check = $wpdb->get_var("SELECT COUNT(DISTINCT s4) FROM wp_prodlegend WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$qs3';");
 
       if(!$s4_check) {
-        $item_check = $wpdb->get_results("SELECT DISTINCT item FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$qs3';");
+        $item_check = $wpdb->get_results("SELECT DISTINCT item FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$qs3';");
       } else {
         $item_check = null;
       }
@@ -73,11 +73,11 @@
         // echo "triggered.";
         // main category is not rough. Display thumbnail of item here...
         // echo "Only s2 for this category. This is not rough. need to display thumb here.";
-        $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2';");
+        $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2';");
         include 'prod-itemthumb.php';
       } else {
 
-        $catitems = $wpdb->get_results("SELECT * FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2';");
+        $catitems = $wpdb->get_results("SELECT * FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2';");
         include 'prod-itemtable.php';
 
         // echo "Only s2 for this category. This is rough. need to display table here.";

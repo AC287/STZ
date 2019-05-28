@@ -17,16 +17,16 @@ jQuery(document).ready(function($) {
 
   /* - - - index page - - - */
 
-  $('.index-midcategory').on('click', function(){
-    var currentSelection = $(this).attr('data-target').split('#')[1];
-    $('.index-midcategory-contents').each(function(i,obj){
-      // console.log(currentSelection);
-      // console.log($(this).attr('id'));
-      if($(this).attr('id')!=currentSelection){
-        $(this).collapse('hide');
-      }
-    })
-  })
+  // $('.index-midcategory').on('click', function(){
+  //   var currentSelection = $(this).attr('data-target').split('#')[1];
+  //   $('.index-midcategory-contents').each(function(i,obj){
+  //     // console.log(currentSelection);
+  //     // console.log($(this).attr('id'));
+  //     if($(this).attr('id')!=currentSelection){
+  //       $(this).collapse('hide');
+  //     }
+  //   })
+  // })
 
 
   function classSplit(x){

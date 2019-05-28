@@ -92,7 +92,7 @@
 
 								} else {
 									// s1 is empty; should display items icons.
-									$m0_items = $wpdb->get_results("SELECT item, img0, img1, img2, img3, img4, img5 FROM wp_ldrproddb WHERE m0='$qm0';");
+									$m0_items = $wpdb->get_results("SELECT item, img0, img1, img2, img3, img4, img5 FROM wp_stzproddb WHERE m0='$qm0';");
 									foreach ($m0_items as $m0_item_inner) {
 										echo "<a href='./item/?id=".urlencode($m0_item_inner->item)."&m0=".urlencode($main_category2->m0)."' class='s1-box'>";
 										echo "<div class='item-img'>";

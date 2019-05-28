@@ -38,7 +38,7 @@
 
   if(stripslashes($cm0)!="Rough") {
 
-    $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$cs4';");
+    $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$cs4';");
 
     // print_r($catitems);
 
@@ -49,7 +49,7 @@
 
   } else {
 
-    $catitems = $wpdb->get_results("SELECT * FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$cs4';");
+    $catitems = $wpdb->get_results("SELECT * FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$cs4';");
 
     include 'prod-itemtable.php';
     // echo "THIS IS ROUGH. IT NEEDS GRAPH";

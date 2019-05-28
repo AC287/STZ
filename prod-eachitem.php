@@ -47,7 +47,7 @@
 			// echo "<h1> HELLO </h1>";
 			// $mPos = 0;
 			echo "<div class='group-container'>";
-				$get_item_data = $wpdb->get_results("SELECT * FROM wp_ldrproddb WHERE item='$item_id' AND m0 = '$item_m0';");
+				$get_item_data = $wpdb->get_results("SELECT * FROM wp_stzproddb WHERE item='$item_id' AND m0 = '$item_m0';");
 				$get_cert_img = $wpdb->get_results("SELECT * FROM wp_cert;");
 
 				// print_r($get_item_data);

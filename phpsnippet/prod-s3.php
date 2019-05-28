@@ -32,7 +32,7 @@
       // print_r(sizeof($img));
       // print_r($img);
       /*
-      $item_check = $wpdb->get_results("SELECT DISTINCT item FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$qs4';");
+      $item_check = $wpdb->get_results("SELECT DISTINCT item FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3' AND s4 = '$qs4';");
 
       if(count($item_check)==1) {
         echo "<a href='../item/?id=".urlencode($item_check[0]->item)."&m0=".urlencode($cm0)."&s1=".urlencode($cs1)."&s2=".urlencode($cs2)."&s3=".urlencode($cs3)."&s4=".urlencode($prods4->s4)."' class='s1-box'>";
@@ -68,11 +68,11 @@
       if($cm0 != "Rough") {
         // main category is not rough. Display thumbnail of item here...
         // echo "Only s3 for this category. This is not rough. need to display thumb here.";
-        $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3';");
+        $catitems = $wpdb->get_results("SELECT item,img0 FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3';");
         include 'prod-itemthumb.php';
       } else {
 
-        $catitems = $wpdb->get_results("SELECT * FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3';");
+        $catitems = $wpdb->get_results("SELECT * FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$cs1' AND s2 = '$cs2' AND s3 = '$cs3';");
         include 'prod-itemtable.php';
         // echo "Only s3 for this category. This is rough. need to display table here.";
         // display item table here...

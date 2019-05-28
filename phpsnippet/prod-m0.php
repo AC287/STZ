@@ -28,7 +28,7 @@
       $s2_check = $wpdb->get_var("SELECT COUNT(DISTINCT s2) FROM wp_prodlegend WHERE m0 = '$cm0' AND s1 = '$qs1';");
 
       if(!$s2_check) {
-        $item_check = $wpdb->get_results("SELECT item FROM wp_ldrproddb WHERE m0 = '$cm0' AND s1 = '$qs1';");
+        $item_check = $wpdb->get_results("SELECT item FROM wp_stzproddb WHERE m0 = '$cm0' AND s1 = '$qs1';");
       } else {
         $item_check = null;
       }

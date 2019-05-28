@@ -7,17 +7,16 @@
   <div class="container">
     <div class="overall-brands-container">
 
-      <!--   Exquisite   -->
+      <!--   CAMBRIDGE   -->
       <div class="brands-container">
-        <img src="<?php bloginfo('template_directory')?>/images/brands/exquisite_brand.png">
+        <img src="<?php bloginfo('template_directory')?>/images/brands/cambridge_brand.png">
         <div class="brands-overlay">
           <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/logo/exquisite.png" style="height:auto; width:225px">
+            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/cambridge_pms293.png" style="height:70px; width:auto">
           </div>
           <div class="brandsoverlay-text">
-            <p>Exquisite is LDR's step-up line of faucets, shower, toilet seats and bath accessories.</p>
-            <p>LDR strives to stay on top of the fashion trends in plumbing and our Exquisite line keeps customers current!</p>
-            <a href="<?php echo home_url();?>/products/categories/?m0=Fashion" target="_blank" rel="noopener noreferrer">View Products >></a>
+            <p>Cambridge manufactures premium quality HVAC, plumbing, electrical and automotive products and sells to distributors, retailers, and O.E.M.'s. Cambridge has a dedicated team of sales professionals who are extremely knowledgeable in their respective industries.</p>
+            <a href="<?php echo $cambridgeSite ?>" target="_blank" rel="noopener noreferrer">Visit Site >></a>
           </div>
         </div>
       </div> <!--  end brands-container  -->
@@ -38,19 +37,6 @@
         </div>
       </div> <!--  end brands-container  -->
 
-      <!--   CAMBRIDGE   -->
-      <div class="brands-container">
-        <img src="<?php bloginfo('template_directory')?>/images/brands/cambridge_brand.png">
-        <div class="brands-overlay">
-          <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/cambridge_pms293.png" style="height:70px; width:auto">
-          </div>
-          <div class="brandsoverlay-text">
-            <p>Cambridge manufactures premium quality HVAC, plumbing, electrical and automotive products and sells to distributors, retailers, and O.E.M.'s. Cambridge has a dedicated team of sales professionals who are extremely knowledgeable in their respective industries.</p>
-            <a href="<?php echo $cambridgeSite ?>" target="_blank" rel="noopener noreferrer">Visit Site >></a>
-          </div>
-        </div>
-      </div> <!--  end brands-container  -->
 
       <!--   CODA   -->
       <!-- <div class="brands-container">
