@@ -39,7 +39,7 @@
 
         //php mailer variables
         $to = "orders@ldrind.com";
-        $subject = "LDR web contact from $name";
+        $subject = "STZ web contact from $name";
         $headers = array(
           'Reply-To: '.$email
         );

@@ -25,6 +25,7 @@
   $cambridgeSite = "";
   $codaSite = "";
   $ldrSite = "";
+  $stzSite = "";
   if($curServer=="127.0.0.1") {
     $cambridgeSite = "http://127.0.0.1/product-demo/";
     $codaSite = "http://127.0.0.1/codadev/";
@@ -33,14 +34,16 @@
     $cambridgeSite = "http://test1.arthurchen.info/";
     $codaSite = "http://test2.arthurchen.info/";
     $ldrSite = "http://test3.arthurchen.info/";
-  } elseif ($curServer=="cambridge.codacambridge.com" || $curServer=="coda.codacambridge.com" || $curServer=="ldr.codacambridge.com") {
+  } elseif ($curServer=="cambridge.codacambridge.com" || $curServer=="coda.codacambridge.com" || $curServer=="ldr.codacambridge.com" || $curServer=="stz-dev.codacambridge.com") {
     $cambridgeSite = "https://cambridge.codacambridge.com/";
     $codaSite = "https://coda.codacambridge.com/";
     $ldrSite = "https://ldr.codacambridge.com";
+    $stzSite = "https://stz-dev.codacambridge.com";
   } else {
-    $cambridgeSite = "http://cambridgeresources.com/";
-    $codaSite = "http://codaresources.com/";
-    $ldrSite = "http://ldrind.com/";
+    $cambridgeSite = "https://cambridgeresources.com/";
+    $codaSite = "https://codaresources.com/";
+    $ldrSite = "https://ldrind.com/";
+    $stzSite = "https://stz.com/";
   }
 
 ?>
