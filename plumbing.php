@@ -59,7 +59,7 @@
         Laundry
       </div>
       <div class="ind-cat-txt">
-        <p>STZ understands the importance of your laundry room, and wants you to enjoy them in style. We introduce new designs regularly, so make sure to keep coming back to check out our collection!</p>
+        <p>STZ understands the importance of your laundry room, and wants you to enjoy them in style.</p>
       </div>
     </div>
   </div>  <!--  end container  -->
