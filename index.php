@@ -108,14 +108,14 @@ include 'phpsnippet/serverlocation.php';
 </div>
 
 <!--  GENERAL-CATEGORY -->
-<div class="general-category">
+<!-- <div class="general-category">
   <div class="container">
 
     <div class="gc-overallinnercontainer">
 
       <div class="gc-indexcontainer">
         <div class="gc-indeximages">
-          <img src="<?php bloginfo('template_directory')?>/images/icons/home-rough.svg">
+          <img src="<?php //bloginfo('template_directory')?>/images/icons/home-rough.svg">
         </div>
         <div class="gc-txtbox">
           <div class="gc-indextitle">
@@ -128,23 +128,36 @@ include 'phpsnippet/serverlocation.php';
         </div>
       </div>
 
-    </div>  <!--  end gc-overallinnercontainer -->
+    </div>   -->
+    <!--  end gc-overallinnercontainer -->
 
 
   </div> <!-- end container -->
 </div> <!-- end general-category-->
+
 <!--  MID-MENU  -->
-<div class="mid-menu" style='height:45px'>
+<!-- <div class="mid-menu" style='height:45px'>
   <div class="container">
-    <span id="mid-menu-menu">
+    <span id="mid-menu-menu"> -->
       <!-- <a href="">NEW PRODUCTS</a>
       <span class="mm-divider">|</span> -->
       <!-- <a href="<?php //echo home_url();?>/tradeshows/">TRADESHOWS</a> -->
       <!-- <span class="mm-divider">|</span>
       <a href="<?php //echo home_url();?>/news/">NEWS</a> -->
-    </span>
-  </div> <!-- end container -->
-</div> <!-- end mid-menu -->
+    <!-- </span> -->
+  <!-- </div>  -->
+  <!-- end container -->
+<!-- </div>  -->
+<!-- end mid-menu -->
+
+<div class="about-midsectioncallout">
+	<div class="container">
+		<div class="about-midsectioncallout-innerpadding">
+			<p>STZ prides itself on their expert knowledge of fittings, nipples and pipe. By eating, breathing and dreaming rough plumbing, STZ is able to manufacture thousands of sku's, offer competitive pricing, customized product assortments, and various programs.</p>
+		</div>
+	</div>
+</div>
+
 <!--  MID-CATEGORY  -->
 <div id="mid-category">
   <div class="container">

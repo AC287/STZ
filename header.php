@@ -194,12 +194,13 @@
                 </a>
               </div>
 
-              <!-- <div class="nav2-logo nav2-coda">
+              <div class="nav2-logo nav2-coda">
                 <a href="<?php //echo $codaSite ?>" target="_blank" rel="noopener noreferrer">
                   <img src="<?php bloginfo('template_directory')?>/images/brands/codadev_logo.png" >
                 </a>
-              </div> -->
+              </div>
             </div>
+            
             <div class="nav2-search">
               <form action='<?php echo home_url();?>/products/search' method='get' autocomplete="off">
                 <span class="glyphicon glyphicon-search nav2-search-icon"></span>

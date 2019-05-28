@@ -56,10 +56,10 @@
     </div>
     <div class="ind-cat-desc">
       <div class="ind-cat-title">
-        Kitchen &amp; Laundry
+        Laundry
       </div>
       <div class="ind-cat-txt">
-        <p>STZ understands the importance of your kitchen and laundry room, and wants you to enjoy them in style. We introduce new designs regularly, so make sure to keep coming back to check out our collection!</p>
+        <p>STZ understands the importance of your laundry room, and wants you to enjoy them in style. We introduce new designs regularly, so make sure to keep coming back to check out our collection!</p>
       </div>
     </div>
   </div>  <!--  end container  -->

@@ -39,18 +39,19 @@
 
 
       <!--   CODA   -->
-      <!-- <div class="brands-container">
-        <img src="<?php //bloginfo('template_directory')?>/images/brands/codadev.png">
+      <div class="brands-container">
+        <img src="<?php bloginfo('template_directory')?>/images/brands/codadev.png">
         <div class="brands-overlay">
           <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php //bloginfo('template_directory')?>/images/brands/codadev_logo.png" style="height:80px; width:auto">
+            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/codadev_logo.png" style="height:80px; width:auto">
           </div>
           <div class="brandsoverlay-text">
             <p>Coda Resources has a proud tradition of innovation. Coda is constantly working together with their customers to come up with exciting new products that are on the cutting edge of their industries. Coda handles everything from research & development to manufacturing and quality assurance. </p>
-            <a href="http://www.codadevelops.com" target="_blank" rel="noopener noreferrer">Visit Site >></a>
+            <!-- <a href="http://www.codadevelops.com" target="_blank" rel="noopener noreferrer">Visit Site >></a> -->
+            <a href="<?php echo $codaSite ?>" target="_blank" rel="noopener noreferrer">Visit Site >></a>
           </div>
         </div>
-      </div>  -->
+      </div>
 
       <!--  AMRAM  -->
       <!-- <div class="brands-container">

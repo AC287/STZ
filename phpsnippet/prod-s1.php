@@ -10,11 +10,12 @@
   $prods2 = $wpdb->get_results("SELECT DISTINCT s2 FROM wp_prodlegend WHERE m0 = '$cm0' AND s1 = '$cs1';");
   // print_r($prods2);
 
-  // $descs1 = $wpdb->get_results("SELECT s1desc FROM wp_prodlegend WHERE m0 = '$cm0' AND s1= '$cs1';");
+  $descs1 = $wpdb->get_results("SELECT s1desc FROM wp_prodlegend WHERE m0 = '$cm0' AND s1= '$cs1';");
   // print_r($descs1);
-  // echo "<div class='prod-cat-desc'>";
-  //   echo "<p>".$descs1[0]->s1desc."</p>";
-  // echo "</div>";
+
+  echo "<div class='prod-cat-desc'>";
+    echo "<p>".$descs1[0]->s1desc."</p>";
+  echo "</div>";
 
   // if(!empty($descs1[0]->s1desc)) {
   //   echo "<div class='prod-cat-desc'>";

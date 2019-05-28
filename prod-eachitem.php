@@ -4,11 +4,11 @@
 <!-- // Data displaying individual item. -->
 <?php get_header(); ?>
 
-<div class='prod-tocatalogs'>
+<!-- <div class='prod-tocatalogs'>
 	<a href='<?php echo home_url();?>/products/catalogs/'>Click here to view our catalogs.</a>
 	<div class='prod-tocatalogs-underline'>
 	</div>
-</div>
+</div> -->
 
 <div class="container">
 	<div id="primary" class="content-area">
@@ -263,11 +263,11 @@
 						echo "</div>";	// end ip-certification
 					}	// end if selection for certifications
 
-					if(($get_item_legend[0]->s2desc || $get_item_legend[0]->s3desc || $get_item_legend[0]->s4desc)||($get_item_data[0]->d0)!='' || ($get_item_data[0]->d0)) {
-					}
+					// if(($get_item_legend[0]->s1desc || $get_item_legend[0]->s2desc || $get_item_legend[0]->s3desc || $get_item_legend[0]->s4desc)||($get_item_data[0]->d0)!='' || ($get_item_data[0]->d0)) {
+					// }
 					echo "<div class='ip-description'>";
 						echo "<div class='ip-desctitle'>PRODUCT DESCRIPTION</div>";
-						// echo "<p class='ip-detaildescription'>".$get_item_legend[0]->s1desc."</p>";
+						echo "<p class='ip-detaildescription'>".$get_item_legend[0]->s1desc."</p>";
 						echo "<p class='ip-detaildescription'>".$get_item_legend[0]->s2desc."</p>";
 						echo "<p class='ip-detaildescription'>".$get_item_legend[0]->s3desc."</p>";
 						echo "<p class='ip-detaildescription'>".$get_item_legend[0]->s4desc."</p>";

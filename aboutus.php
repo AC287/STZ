@@ -8,7 +8,7 @@
 	<div class="about-beginning-title">
 		<div class="abt-container">
 			<div class="index-title1">
-				<span>LDR'S 83 YEAR OLD STORY</span>
+				<span>STZ'S 83 YEAR OLD STORY</span>
 			</div>
 			<div class="index-title1-underline">
 			</div>
@@ -22,21 +22,15 @@
 			<p class="aiy-year">1935</p>
 		</div>
 		<div class="aboutus-inthebeginning-contents">
-			<p class="aboutus-content0">About LDR Global Industries</p>
+			<p class="aboutus-content0">About STZ</p>
 			<p class="aboutus-content1">
-				G&amp;S Supply was formed in Chicago in 1935, locally distributing plumbing products. In 1984 G&S began to manufacture product under the LDR brand and expanded their business by supplying home centers, hardware distributors and mass merchants their plumbing supplies. LDR was then acquired by Coda Resources in 2015.
+				G&amp;S Supply was formed in Chicago in 1935, locally distributing plumbing products. In 1984 G&S began to manufacture product under the LDR brand and expanded their business by supplying home centers, hardware distributors and mass merchants their plumbing supplies. LDR was then acquired by Coda Resources in 2015. In 2019, LDR sold its fashion plumbing business and changed its name to STZ industries.
 			</p>
 		</div>
 	</div>	<!--	end aboutus-inthebeginning  -->
 </div>	<!--  end container  -->
 
-<!-- <div class="about-midsectioncallout">
-	<div class="container">
-		<div class="about-midsectioncallout-innerpadding">
-			<p>LDR Global Industries prides itself on their expert knowledge of kitchen, bath and plumbing categories. By eating, breathing and dreaming plumbing, LDR is able to manufacture thousands of sku's, offer competitive pricing, customized product assortments, and various plumbing programs.</p>
-		</div>
-	</div>
-</div> -->
+
 
 <div class="about-whyus">
 	<div class="container">

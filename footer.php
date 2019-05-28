@@ -7,9 +7,9 @@
         <div class="footer1-inner-left">
           <a href="<?php echo home_url();?>/products/" class="footer1-maintxt">Products</a>
           <ul class="footer1-subtxt">
-            <li><a href="<?php echo home_url();?>/products/">Product Page</a></li>
+            <!-- <li><a href="<?php echo home_url();?>/products/">Product Page</a></li> -->
             <!-- <li><a href="">Featured Product</a></li> -->
-            <li><a href="<?php echo home_url();?>/products/catalogs/">Catalogs</a></li>
+            <!-- <li><a href="<?php //echo home_url();?>/products/catalogs/">Catalogs</a></li> -->
             <!-- <li><a href="">Quality</a></li> -->
             <!-- <li><a href="">Warranty</a></li> -->
           </ul>

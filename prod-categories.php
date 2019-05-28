@@ -5,11 +5,11 @@
 
 <?php get_header(); ?>
 
-<div class='prod-tocatalogs'>
+<!-- <div class='prod-tocatalogs'>
 	<a href='<?php echo home_url();?>/products/catalogs/'>Click here to view our catalogs.</a>
 	<div class='prod-tocatalogs-underline'>
 	</div>
-</div>
+</div> -->
 
 <div class="container">
 	<div id="primary" class="content-area">
