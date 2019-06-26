@@ -27,7 +27,7 @@
         $response = "";
 
         $message_sent    = "Thanks! Your message has been sent.";
-        $message_spam    = "Spam detected. Please send your inquiry to orders@ldrind.com";
+        $message_spam    = "Spam detected. Please send your inquiry to orders@stzindustries.com";
         include 'phpsnippet/google_captcha.php';
         //user posted variables
         $name = $_POST['contact-name'];
@@ -38,7 +38,7 @@
         $contents = "Name: $name \nEmail: $email \nPhone: $phone \nCompany: $company \nMessage: $message";
 
         //php mailer variables
-        $to = "orders@ldrind.com";
+        $to = "orders@stzindustries.com";
         $subject = "STZ web contact from $name";
         $headers = array(
           'Reply-To: '.$email
@@ -65,7 +65,7 @@
       </div>
       <div class='contact-phaddress-address'>
         <p>600 N. Kilbourn Avenue, Chicago, IL 60624</p>
-        <p>orders@ldrind.com</p>
+        <p>orders@stzindustries.com</p>
       </div>
     </div>
 
