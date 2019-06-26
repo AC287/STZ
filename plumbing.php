@@ -52,7 +52,7 @@
 <div class="ind-cat ind-kitchenlaundry">
   <div class="container">
     <div class="ind-cat-img">
-      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/industries-kitchenlaundry.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/industries-laundry.jpg">
     </div>
     <div class="ind-cat-desc">
       <div class="ind-cat-title">
