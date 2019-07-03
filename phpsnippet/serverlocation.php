@@ -30,6 +30,7 @@
     $cambridgeSite = "http://127.0.0.1/product-demo/";
     $codaSite = "http://127.0.0.1/codadev/";
     $ldrSite = "http://127.0.0.1/ldr/";
+    $stzSite = "http://127.0.0.1/stz-dev/";
   } elseif ($curServer=="test1.arthurchen.info" || $curServer=="test2.arthurchen.info" || $curServer=="test3.arthurchen.info") {
     $cambridgeSite = "http://test1.arthurchen.info/";
     $codaSite = "http://test2.arthurchen.info/";
@@ -43,7 +44,7 @@
     $cambridgeSite = "https://cambridgeresources.com/";
     $codaSite = "https://codaresources.com/";
     $ldrSite = "https://ldrind.com/";
-    $stzSite = "https://stz.com/";
+    $stzSite = "https://stzindustries.com/";
   }
 
 ?>
