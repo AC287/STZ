@@ -153,7 +153,7 @@ include 'phpsnippet/serverlocation.php';
 <div class="about-midsectioncallout">
 	<div class="container">
 		<div class="about-midsectioncallout-innerpadding">
-			<p>STZ prides itself on their expert knowledge of fittings, nipples and pipe. By eating, breathing and dreaming rough plumbing, STZ is able to manufacture thousands of sku's, offer competitive pricing, customized product assortments, and various programs.</p>
+			<p>STZ prides itself on their expert knowledge of fittings, nipples and pipe. By eating, breathing and dreaming rough plumbing, STZ is able to manufacture thousands of skus, offer competitive pricing, customized product assortments, and various programs.</p>
 		</div>
 	</div>
 </div>
@@ -171,9 +171,9 @@ include 'phpsnippet/serverlocation.php';
         <div class="index-midcategory-contents" id="imc-indexretail">
           <!-- <div class="mc-border">INDUSTRY DISTRIBUTORS <br/>CARRY CAMBRIDGE</div> -->
           <div class="mc-txt">
-            <p>STZ has a firm understanding of the retail marketplace giving your retail space a great edge.</p>
-            <p>STZ's label and UPC color coding system allows easy shopping for the customer and quick restocking by store personnel. The small pack quantities allow for quick turn around.</p>
-            <p>STZ's ability to customize product assortments, program updates, and  competitive pricing makes us the retailers #1 choice.</p>
+            <p>Since STZ has a firm understanding of the retail marketplace, this gives your retail space a great edge.</p>
+            <p>STZ's label and UPC color coding system allows easy shopping for the customer and quick restocking by store personnel. The small pack quantities allow for quick turnaround.</p>
+            <p>STZ's ability to customize product assortments, program updates, and  competitive pricing makes us the retailer's #1 choice.</p>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ include 'phpsnippet/serverlocation.php';
         <div class="index-midcategory-contents" id="imc-index2step">
           <!-- <div class="mc-border">INTERNATIONAL RETAILERS <br/>SELL CAMBRIDGE</div> -->
           <div class="mc-txt">
-            <p>STZ's two-step distribution process keeps the product easily accessible to the distributor. Global access points, and local headquartered support allow for quick turn around and instant service.</p>
+            <p>STZ's two-step distribution process keeps the product easily accessible to the distributor. Global access points and local headquartered support allow for quick turn around and instant service.</p>
           </div>
         </div>
       </div>
@@ -199,7 +199,7 @@ include 'phpsnippet/serverlocation.php';
         <div class="index-midcategory-contents" id="imc-indexwholesale">
           <!-- <div class="mc-border">ORIGINAL EQUIPMENT <br/>MANUFACTURER</div> -->
           <div class="mc-txt">
-            <p>STZ's sister company Cambridge caters to the wholesale market by offering bulk options on many of the Rough Plumbing sku's. <a href="<?php echo $cambridgeSite; ?>">Click here</a> to check out their website.</p>
+            <p>STZ's sister company Cambridge caters to the wholesale market by offering bulk options on many of the Rough Plumbing skus. <a href="<?php echo $cambridgeSite; ?>">Click here</a> to check out their website.</p>
           </div>
         </div>
       </div>
