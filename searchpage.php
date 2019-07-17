@@ -1,4 +1,4 @@
-<!--  Template Name: LDR Search Page  -->
+<!--  Template Name: STZ Search Page  -->
 
 <?php get_header();?>
 <div class="container">
@@ -103,7 +103,7 @@
           $catArrQuery = array();
 
           foreach($matchArr as $matchArr0) {
-            $catArrQuery[] = "SELECT * FROM wp_ldrproddb WHERE m0 LIKE '%$matchArr0%' OR s1 LIKE '%$matchArr0%' OR s2 LIKE '%$matchArr0%' OR s3 LIKE '%$matchArr0%' OR s4 LIKE '%$matchArr0%'";
+            $catArrQuery[] = "SELECT * FROM wp_stzproddb WHERE m0 LIKE '%$matchArr0%' OR s1 LIKE '%$matchArr0%' OR s2 LIKE '%$matchArr0%' OR s3 LIKE '%$matchArr0%' OR s4 LIKE '%$matchArr0%'";
           }
 
           for ($i=0; $i < count($searchArray); $i++) {
@@ -163,8 +163,8 @@
 
           for($j=0; $j < count($searchArray); $j++) {
 
-            $prodqueryArrCont0[] = "SELECT * from wp_ldrproddb ".$prodqueryArr0[$j];
-            $prodqueryArrCont1[] = "SELECT * from wp_ldrproddb ".$prodqueryArr1[$j];
+            $prodqueryArrCont0[] = "SELECT * from wp_stzproddb ".$prodqueryArr0[$j];
+            $prodqueryArrCont1[] = "SELECT * from wp_stzproddb ".$prodqueryArr1[$j];
           }
 
           //Initial get data. group by m0s1s2s3jointcat first, then the rest of the attribute.
