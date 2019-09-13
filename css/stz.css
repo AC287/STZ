@@ -2227,6 +2227,42 @@ color: #DA291C;
     line-height: 15pt;
   }
 }
+.temp-notice {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  pading-bottom: 30px;
+}
+.temp-notice .container {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tn-img {
+  width: 200px;
+}
+.tn-img img {
+  margin: 0 auto;
+  width: 100%;
+}
+.tn-content {
+  max-width: 500px;
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+}
+.tn-title {
+  font-size: 16pt;
+  color: #DA291C;
+}
+.tn-txt {
+  font-size: 12pt;
+  color: #000;
+}
 .contact-form {
   background-color: #f2f2f2;
 }
@@ -2302,6 +2338,9 @@ color: #DA291C;
 }
 @media screen and (max-width: 750px) {
   .contact-container {
+    width: 80%;
+  }
+  .temp-notice .container {
     width: 80%;
   }
 }
