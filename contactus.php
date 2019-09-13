@@ -24,13 +24,13 @@
   <div class="container">
     <div class="tn-img">
       <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/IL60139.jpg">
-    </div>
-    <div class="tn-content">
-      <div class="tn-title">
-        Moving in Q1 2020.
-      </div>
-      <div class="tn-txt">
-        <p>990 North Avenue<br/>Glendale Heights, IL 60139</p>
+      <div class="tn-content">
+        <div class="tn-title">
+          Moving in Q1 2020.
+        </div>
+        <div class="tn-txt">
+          <p>990 North Avenue<br/>Glendale Heights, IL 60139</p>
+        </div>
       </div>
     </div>
   </div>  <!--  end container  -->
