@@ -39,13 +39,12 @@
 
 <div class='contact-form'>
   <div class='contact-container'>
-    <div class='col-sm-12 contact-maintitle'>
+    <!-- <div class='col-sm-12 contact-maintitle'>
       <span>CONTACT</span>
     </div>
     <div class='.contact-form-input'>
       <?php echo $response; ?>
       <form action='<?php the_permalink();?>success' method='post' class='row' autocomplete="off" id="contact_form">
-      <!-- <form action='<?php //echo esc_url(admin_url('admin-post.php'));?>' method='post' class='row'> -->
         <div class='form-group contact-sm-input col-sm-6'>
           <input type='text' name='contact-name' placeholder='Name' required>
         </div>
@@ -66,11 +65,10 @@
         </div>
         <div class='form-group contact-submit'>
           <input type='hidden' name='submitted' value='1'>
-          <!-- <input type='hidden' name='action' value='contact_form'> -->
           <button type='submit'>SEND</button>
         </div>
       </form>
-    </div>
+    </div> -->
     <div class='contact-phaddress'>
       <div class='contact-phaddress-ph'>
         <span>P.800.545.5230</span>
