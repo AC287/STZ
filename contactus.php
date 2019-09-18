@@ -39,7 +39,7 @@
 
 <div class='contact-form'>
   <div class='contact-container'>
-    <!-- <div class='col-sm-12 contact-maintitle'>
+    <div class='col-sm-12 contact-maintitle'>
       <span>CONTACT</span>
     </div>
     <div class='.contact-form-input'>
@@ -68,7 +68,7 @@
           <button type='submit'>SEND</button>
         </div>
       </form>
-    </div> -->
+    </div>
     <div class='contact-phaddress'>
       <div class='contact-phaddress-ph'>
         <span>P.800.545.5230</span>
