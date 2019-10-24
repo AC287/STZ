@@ -75,7 +75,6 @@
     </div>
     <div class='contact-phaddress'>
       <div class='contact-phaddress-ph'>
-        <span>P.800.545.5230</span>
         <span>P.773.265.3000</span>
         <span>F.773.265.3130</span>
       </div>
