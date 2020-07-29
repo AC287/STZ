@@ -24,14 +24,6 @@
   <div class="container">
     <div class="tn-img">
       <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/IL60139.jpg">
-      <div class="tn-content">
-        <div class="tn-title">
-          Moving in Q1 2020.
-        </div>
-        <div class="tn-txt">
-          <p>990 E North Avenue<br/>Glendale Heights, IL 60139</p>
-        </div>
-      </div>
     </div>
   </div>  <!--  end container  -->
 </div>
@@ -75,7 +67,7 @@
         <span>F.773.265.3130</span>
       </div>
       <div class='contact-phaddress-address'>
-        <p>600 N. Kilbourn Avenue, Chicago, IL 60624</p>
+        <p>990 E North Ave. Glendale Heights, IL 60139</p>
         <p>orders@stzindustries.com</p>
       </div>
     </div>
