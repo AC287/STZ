@@ -120,7 +120,7 @@
 							<img src="<?php bloginfo('template_directory')?>/images/about/illinois.png">
 						</div>
 						<div class="about-locations-type">
-							<p class="about-locations-type-title">CHICAGO, IL</p>
+							<p class="about-locations-type-title">GLENDALE HEIGHTS, IL</p>
 							<p>Regional Headquarters</p>
 							<p>Distribution Center</p>
 						</div>
