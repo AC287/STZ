@@ -31,7 +31,7 @@ include 'phpsnippet/serverlocation.php';
   <div class="carousel-inner" role="listbox">
 
     <div class="item active">
-      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_rough.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_rough02.jpg">
       <div class="index-banner-textbox ibt-rough">
         <div class="ibt-text">
           <span>NOT ROUGH AROUND THE EDGES</span>
@@ -42,7 +42,7 @@ include 'phpsnippet/serverlocation.php';
     </div>
 
     <div class="item">
-      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_merch.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/banners/stz_merch02.jpg">
       <div class="index-banner-textbox ibt-merch">
         <div class="ibt-text">
           <span>BEST IN CLASS MERCHANDISING</span>
