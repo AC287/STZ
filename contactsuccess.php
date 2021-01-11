@@ -19,7 +19,7 @@
 <div class="temp-notice">
   <div class="container">
     <div class="tn-img">
-      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/IL60139.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/web_thumb_img/IL60148.jpg">
     </div>
   </div>  <!--  end container  -->
 </div>
@@ -71,7 +71,7 @@
         <span>F.773.265.3130</span>
       </div>
       <div class='contact-phaddress-address'>
-        <p>990 E North Ave. Glendale Heights, IL 60139</p>
+        <p>990 E North Ave. Glendale Heights, IL 60148</p>
         <p>orders@stzindustries.com</p>
       </div>
     </div>
