@@ -53,34 +53,19 @@
         </div>
       </div>
 
-      <!--  AMRAM  -->
-      <!-- <div class="brands-container">
-        <img src="<?php //bloginfo('template_directory')?>/images/brands/amram.png">
+      <!--   TEHILA   -->
+      <div class="brands-container">
+        <img src="<?php bloginfo('template_directory')?>/images/brands/tehila-00.png">
         <div class="brands-overlay">
           <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php //bloginfo('template_directory')?>/images/brands/amram_logo.png" style="height: 40px; width:auto">
+            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/tehila_logo-00.png" style="height:70px; width:auto">
           </div>
           <div class="brandsoverlay-text">
-            <p>Amram is the preferred brand by leading retailers, manufacturers and distributors of retail supplies</p><p>From tagging guns, needles, attachments and fasteners, to price marking labelers and labels, cable ties, tags, pouches and more - we stock it all. </p>
-            <a href="http://www.codarss.com" target="_blank" rel="noopener noreferrer">Visit Site >></a>
+            <p>STZ Industries is happy to introduce Tehila Laundry Tub Kits. Tehila Laundry Tub Kits comes complete with tub, faucet, legs, rubber stopper, p-trap, floor levelers, hardware, and installation instructions. Tehila offers two tub sizes – standard 19 gallon and space-saving 16 gallon. With pull-down or pull-out faucets, you can direct waterflow for ease of use. Tehila laundry tubs are made of high-quality, durable thermoplastic and come in either black or grey. Sturdy rust proof steel legs attach easily, and include floor levelers for stability. Tehila Laundry Tub Kits come with a one-year warranty.</p>
+            <!-- <a href="<?php //echo $codaSite ?>" target="_blank" rel="noopener noreferrer">Visit Site >></a> -->
           </div>
         </div>
-      </div> -->
-
-      <!--  LDR  -->
-      <!-- <div class="brands-container">
-        <img src="<?php //bloginfo('template_directory')?>/images/brands/ldr.png">
-        <div class="brands-overlay">
-          <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php //bloginfo('template_directory')?>/images/brands/ldr_logo.png" style="height:50px; width:auto">
-          </div>
-          <div class="brandsoverlay-text">
-            <p>LDR is a leading supplier of rough and fashion plumbing products to the home improvement industry.</p>
-            <p>Products include fittings, nipples, pipe, valves, tubing, faucets, toilet seats, repair and much more.</p>
-            <a href="http://www.ldrind.com" target="_blank" rel="noopener noreferrer">Visit Site >> </a>
-          </div>
-        </div>
-      </div> -->
+      </div>
 
 
     </div>  <!--  end overall-brands-container  -->
