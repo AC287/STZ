@@ -199,6 +199,13 @@
                   <img src="<?php bloginfo('template_directory')?>/images/brands/codadev_logo.png" >
                 </a>
               </div>
+
+              <div class="nav2-logo nav2-tehila">
+                <a href="<?php echo home_url(); ?>/brands/" rel="noopener noreferrer">
+                  <img src="<?php bloginfo('template_directory')?>/images/brands/tehila_logo-00.png" >
+                </a>
+              </div>
+
             </div>
 
             <div class="nav2-search">
