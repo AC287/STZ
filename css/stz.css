@@ -277,6 +277,10 @@ a.s-icon {
   height: 25px;
 }
 
+.nav2-tehila a img{
+  height: 20px;
+}
+
 .nav2-exquisite a img {
   padding-top: 3px;
   height: 18px;
@@ -288,8 +292,11 @@ a.s-icon {
   height: 10px;
 }
 
-.nav2-cambridge, .nav2-coda, .nav2-exquisite, .nav2-slk, .nav2-pipedecor {
+.nav2-cambridge, .nav2-coda, .nav2-pipedecor {
   padding-top: 8px;
+}
+.nav2-tehila {
+  padding-top: 7px;
 }
 
 .nav2-search {
@@ -346,7 +353,7 @@ a.s-icon {
   .nav2-pipedecor a img {
     height: 7.2px;
   }
-  .nav2-cambridge, .nav2-coda, .nav2-exquisite, .nav2-slk, .nav2-pipedecor {
+  .nav2-cambridge, .nav2-coda, .nav2-tehila, .nav2-pipedecor {
     padding-top: 5px;
   }
   .nav2-search-txt {

@@ -58,10 +58,11 @@
         <img src="<?php bloginfo('template_directory')?>/images/brands/tehila-00.png">
         <div class="brands-overlay">
           <div class="brandsoverlay-logo">
-            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/tehila_logo-00.png" style="height:70px; width:auto">
+            <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/tehila_logo-00.png" style="height:55px; width:auto">
           </div>
           <div class="brandsoverlay-text">
-            <p>STZ Industries is happy to introduce Tehila Laundry Tub Kits. Tehila Laundry Tub Kits comes complete with tub, faucet, legs, rubber stopper, p-trap, floor levelers, hardware, and installation instructions. Tehila offers two tub sizes – standard 19 gallon and space-saving 16 gallon. With pull-down or pull-out faucets, you can direct waterflow for ease of use. Tehila laundry tubs are made of high-quality, durable thermoplastic and come in either black or grey. Sturdy rust proof steel legs attach easily, and include floor levelers for stability. Tehila Laundry Tub Kits come with a one-year warranty.</p>
+            <p>STZ Industries is happy to introduce Tehila Laundry Tub Kits.</p>
+            <p>Tehila Kits comes with tub, faucet, legs, and hardware. Grey or black tubs come in two sizes – standard 19 gallon and space-saving 16 gallon. Tehila tubs are made of durable thermoplastic. Sturdy rust proof steel legs attach easily and include floor levelers for stability. Tehila Laundry Tub Kits come with a one-year warranty.</p>
             <!-- <a href="<?php //echo $codaSite ?>" target="_blank" rel="noopener noreferrer">Visit Site >></a> -->
           </div>
         </div>
